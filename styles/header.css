@@ -1,0 +1,60 @@
+.topheader {
+    width: 100vw;
+    min-width: 390px;
+    max-width: 960px;
+    height: 70px;
+}
+.topnav {
+    width: 100%;
+    padding-inline: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logotype {
+    width: 147px;
+    height: 64px;
+    overflow: visible;
+    background-image: url(/img/Logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    list-style: none;
+}
+.menu li a {
+    color: var(--text-clr);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.menu li a:hover {
+    color: var(--primary--clr);
+}
+.nav-btn{
+    background: var(--accent-clr);
+    color: var(--text-clr);
+    font-weight: var(--fw-600);
+    padding: .5rem;
+    border: none;
+    border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+    .btn-top {
+        display: none;
+    }
+}

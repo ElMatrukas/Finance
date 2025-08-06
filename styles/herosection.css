@@ -1,0 +1,71 @@
+.Herosection{
+    height: 30vh;
+    margin-top: 10vh;
+    max-width: var(--Mw);
+    display: flex;
+    position: relative;
+
+}
+.Herosection::after{
+    content: '';
+    z-index: -1;
+    inset: 0;
+    position: absolute;
+    top: -50%;
+    left: 100%;
+    width: 302px;
+    height: 302px;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    background-color: var(--accent-clr);
+    overflow: hidden;
+    z-index: 1;
+    gap: 10px;
+    aspect-ratio: 1 / 1;
+    border-radius: 104px;
+}
+.Herosection::before{
+    content: '';
+    z-index: -1;
+    inset: 0;
+    position: absolute;
+    top: 80%;
+    left: -30%;
+    width: 302px;
+    height: 302px;
+    display: block;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    background-color: var(--primary--clr);
+    overflow: hidden;
+    z-index: 1;
+    gap: 10px;
+    aspect-ratio: 1 / 1;
+    border-radius: 104px;
+}
+.herocontent{
+    text-align: center;
+}
+.main-h1{
+    font-size: var(--fs-700);
+}
+.main-h2{
+    font-size: var(--fs-300);
+    color: var(--text-clr-o);
+}
+.btn-hero{
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.see-btn{
+    background: var(--primary--clr);
+    padding: .5rem;
+    border: none;
+    border-radius: 25px;
+    color: var(--bg-clr);
+    font-weight: var(--fw-600);
+}
