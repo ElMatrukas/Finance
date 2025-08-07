@@ -3,6 +3,8 @@
     min-width: 390px;
     max-width: 960px;
     height: 70px;
+    background: transparent;
+    backdrop-filter: blur(12px);
 }
 .topnav {
     width: 100%;
@@ -54,6 +56,9 @@
 }
 
 @media (max-width: 768px) {
+    .topnav{
+         justify-content: space-around;
+    }
     .btn-top {
         display: none;
     }
