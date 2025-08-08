@@ -3,8 +3,11 @@
     max-width: var(--Mw);
     height: 70px;
     background: transparent;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(8px);
     padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 .topnav {
     width: 100%;
@@ -13,6 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition: all .3s;
 }
 .Logotype {
     width: 147px;
@@ -65,6 +69,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 1rem;
+        transition: all .3s;
     }
     .btn-top {
         display: none;
@@ -83,6 +88,7 @@
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
+        transition: all .5s;
     }
     .Logotype {
         width: 100px;

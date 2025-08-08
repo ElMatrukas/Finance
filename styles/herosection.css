@@ -1,5 +1,4 @@
 .Herosection{
-    height: 30vh;
     margin-top: 10vh;
     max-width: var(--Mw);
     display: flex;
@@ -11,8 +10,8 @@
     z-index: -1;
     inset: 0;
     position: absolute;
-    top: -100px;
-    left: 600px;
+    top: -20vw;
+    left: 60vw;
     width: 302px;
     height: 302px;
     -webkit-filter: blur(100px);
@@ -27,8 +26,8 @@
     z-index: -1;
     inset: 0;
     position: absolute;
-    top: 80%;
-    left: -30%;
+    top: 30vw;
+    left: -20vw;
     width: 302px;
     height: 302px;
     display: block;

@@ -1,10 +1,12 @@
 :root{
+    /* Colors */
     --bg-clr: hsl(180, 73%, 3%);
     --text-clr:hsl(176, 80%, 92%);
     --text-clr-o:hsla(176, 80%, 92%, 0.4);
     --primary--clr:hsl(174, 78%, 46%);
     --secondary--clr:hsl(221, 78%, 25%);
     --accent-clr:hsl(233, 78%, 36%);
+    /* -- */
     /* Fonts-size */
     --fs-100: 1rem;
     --fs-200: 1.25rem;
@@ -40,15 +42,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+html, body{
+    overflow-x: hidden;
+}
 body{
-    background: var(--bg-clr);
-    box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
+    background: var(--bg-clr);   
+}
+main{
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
+    padding-top: 70px; /* Compensar el header fijo */
 }
 h1{
     color: var(--text-clr);
