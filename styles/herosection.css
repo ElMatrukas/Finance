@@ -11,16 +11,14 @@
     z-index: -1;
     inset: 0;
     position: absolute;
-    top: -50%;
-    left: 100%;
+    top: -100px;
+    left: 600px;
     width: 302px;
     height: 302px;
     -webkit-filter: blur(100px);
     filter: blur(100px);
     background-color: var(--accent-clr);
     overflow: hidden;
-    z-index: 1;
-    gap: 10px;
     aspect-ratio: 1 / 1;
     border-radius: 104px;
 }
@@ -38,8 +36,6 @@
     filter: blur(100px);
     background-color: var(--primary--clr);
     overflow: hidden;
-    z-index: 1;
-    gap: 10px;
     aspect-ratio: 1 / 1;
     border-radius: 104px;
 }

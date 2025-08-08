@@ -1,7 +1,10 @@
 .sponsors {
     width: 100%;
-    height: 66px;
+    min-height: 66px;
     max-width: var(--Mw);
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
 }
 .sponsors-container {
     display: flex;
@@ -10,8 +13,9 @@
     align-content: center;
     align-items: center;
     justify-content: center;
-    gap: 40px;
     padding-block: 20px;
+    gap: 40px;
+    width: 100%;
 }
 .sponsors-container h3{
     color: var(--text-clr-o);

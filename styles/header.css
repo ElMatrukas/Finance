@@ -1,15 +1,14 @@
 .topheader {
-    width: 100vw;
-    min-width: 390px;
-    max-width: 960px;
+    width: 100%;
+    max-width: var(--Mw);
     height: 70px;
     background: transparent;
     backdrop-filter: blur(12px);
+    padding: 0 1rem;
 }
 .topnav {
     width: 100%;
     padding-inline: 10px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,12 +22,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    flex-shrink: 0;
 }
 .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -39,7 +39,7 @@
 .menu li a {
     color: var(--text-clr);
     text-decoration: none;
-    font-size: 16px;
+    font-size: var(--fs-100);
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -50,16 +50,48 @@
     background: var(--accent-clr);
     color: var(--text-clr);
     font-weight: var(--fw-600);
-    padding: .5rem;
+    padding: .5rem 1rem;
     border: none;
     border-radius: 25px;
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
-    .topnav{
-         justify-content: space-around;
+    .topheader {
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+    .topnav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
     }
     .btn-top {
         display: none;
+    }
+    .Logotype {
+        width: 120px;
+        height: 50px;
+    }
+    .menu {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .topnav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .Logotype {
+        width: 100px;
+        height: 40px;
+    }
+    .menu {
+        gap: 10px;
+    }
+    .menu li a {
+        font-size: 0.875rem;
     }
 }
