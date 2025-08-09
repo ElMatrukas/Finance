@@ -1,6 +1,5 @@
 .topheader {
     width: 100%;
-    max-width: var(--Mw);
     height: 70px;
     background: transparent;
     backdrop-filter: blur(8px);

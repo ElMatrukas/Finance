@@ -1,0 +1,33 @@
+.Benefits {
+    margin-top: 10vh;
+    max-width: var(--Mw);
+}
+
+.benefits-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.benefits-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.benefits-items h3{
+    color: var(--text-clr);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-300);
+}
+@media (max-width: 768px) {
+    .benefits-wrapper{
+        flex-direction: column;
+    }
+}
