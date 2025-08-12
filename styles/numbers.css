@@ -1,0 +1,28 @@
+.numbers {
+    max-width: var(--Mw);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.numb-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-block: 80px;
+    gap: 150px;
+}
+.numb {
+    text-align: center;
+
+}
+.numb h3{
+    color: var(--text-clr);
+    font-size: var(--fs-1300);
+
+}
+.numb p{
+    color: var(--text-clr-o);
+    font-size: var(--fs-300);
+}
