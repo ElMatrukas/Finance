@@ -1,0 +1,41 @@
+.Create-account {
+    max-width: var(--Mw);
+    height: 600px;
+
+    margin-top: 10vh;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+}
+.account-wrapper p{
+    width: 100%;
+    max-width: 540px;
+}
+.main-h1 {
+    text-wrap: pretty;
+}
+.main-p {
+    text-wrap: pretty;
+}
+.account-btn {
+    background: var(--accent-clr);
+    border: none;
+    border-radius: 25px;
+
+    color: var(--text-clr);
+    font-weight: var(--fw-600);
+    white-space: nowrap;
+
+    margin-top: 40px;
+    padding: .5rem 1rem;
+}
