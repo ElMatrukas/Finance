@@ -16,17 +16,18 @@
     align-items: center;
 
     text-align: center;
-
 }
 .account-wrapper p{
-    width: 100%;
     max-width: 540px;
+    width: 100%;
 }
 .main-h1 {
     text-wrap: pretty;
+    padding-inline: 30px;
 }
 .main-p {
     text-wrap: pretty;
+    padding-inline: 30px;
 }
 .account-btn {
     background: var(--accent-clr);
