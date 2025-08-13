@@ -1,0 +1,12 @@
+.Ready{
+    max-width: var(--Mw);
+    height: 600px;
+
+    margin-top: 10vh;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--secondary--clr);
+}

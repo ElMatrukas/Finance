@@ -18,9 +18,11 @@
 .tilte h2{
     color: var(--text-clr-o);
     font-size: var(--fs-500);
+    font-weight: var(--fw-700);
 }
 .tilte h1{
     font-size: var(--fs-500);
+     font-weight: var(--fw-700);
 }
 .cards-wrapper {
     display: flex;

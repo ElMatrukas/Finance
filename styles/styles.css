@@ -49,6 +49,7 @@ html, body{
     overflow-x: hidden;
 }
 body{
+    font-family: inter;
     background: var(--bg-clr);   
 }
 main{

@@ -1,0 +1,42 @@
+.Join {
+}
+.join-wrapper {
+    max-width: var(--Mw);
+    height: 600px;
+    margin-top: 10vh;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-join {
+    width: 300px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.email{
+    background-color: var(--secondary--clr);
+    color: var(--text-clr);
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+}
+.email::placeholder{
+    color: var(--text-clr-o);
+}
+.submit {
+    background-color: var(--primary--clr);
+    color: var(--text-clr);
+    font-weight: var(--fw-600);
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+}
+.submit:hover{
+    background-color: hsl(from var(--primary--clr)h s calc(l - 5));
+}
