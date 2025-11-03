@@ -1,102 +1,102 @@
 .topheader {
-    width: 100%;
-    height: 70px;
-    background: transparent;
-    backdrop-filter: blur(8px);
-    padding: 0 1rem;
-    position: fixed;
-    top: 0;
-    z-index: 10;
+  width: 100%;
+  height: 70px;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 .topnav {
-    width: 100%;
-    padding-inline: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    transition: all .3s;
+  width: 100%;
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
 }
 .Logotype {
-    width: 147px;
-    height: 64px;
-    overflow: visible;
-    background-image: url(/img/Logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-shrink: 0;
+  width: 147px;
+  height: 64px;
+  overflow: visible;
+  background-image: url(/Finance/img/Logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
 }
 .menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .menu li {
-    list-style: none;
+  list-style: none;
 }
 .menu li a {
-    color: var(--text-clr);
-    text-decoration: none;
-    font-size: var(--fs-100);
-    font-weight: 500;
-    transition: color 0.3s ease;
+  color: var(--text-clr);
+  text-decoration: none;
+  font-size: var(--fs-100);
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 .menu li a:hover {
-    color: var(--primary--clr);
+  color: var(--primary--clr);
 }
-.nav-btn{
-    background: var(--accent-clr);
-    color: var(--text-clr);
-    font-weight: var(--fw-600);
-    padding: .5rem 1rem;
-    border: none;
-    border-radius: 25px;
-    white-space: nowrap;
+.nav-btn {
+  background: var(--accent-clr);
+  color: var(--text-clr);
+  font-weight: var(--fw-600);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 25px;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
-    .topheader {
-        height: auto;
-        padding: 0.5rem 1rem;
-    }
-    .topnav {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 1rem;
-        transition: all .3s;
-    }
-    .btn-top {
-        display: none;
-    }
-    .Logotype {
-        width: 120px;
-        height: 50px;
-    }
-    .menu {
-        gap: 15px;
-    }
+  .topheader {
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+  .topnav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: all 0.3s;
+  }
+  .btn-top {
+    display: none;
+  }
+  .Logotype {
+    width: 120px;
+    height: 50px;
+  }
+  .menu {
+    gap: 15px;
+  }
 }
 
 @media (max-width: 480px) {
-    .topnav {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-        transition: all .5s;
-    }
-    .Logotype {
-        width: 100px;
-        height: 40px;
-    }
-    .menu {
-        gap: 10px;
-    }
-    .menu li a {
-        font-size: 0.875rem;
-    }
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.5s;
+  }
+  .Logotype {
+    width: 100px;
+    height: 40px;
+  }
+  .menu {
+    gap: 10px;
+  }
+  .menu li a {
+    font-size: 0.875rem;
+  }
 }

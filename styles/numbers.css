@@ -1,31 +1,30 @@
 .numbers {
-    max-width: var(--Mw);
+  max-width: var(--Mw);
 }
 .numb-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .numb {
-    text-align: center;
-
+  text-align: center;
 }
-.numb h3{
-    color: var(--text-clr);
-    font-size: var(--fs-1300);
-
+.numb h3,
+span {
+  color: var(--text-clr);
+  font-size: var(--fs-1300);
 }
-.numb p{
-    color: var(--text-clr-o);
-    font-size: var(--fs-300);
+.numb p {
+  color: var(--text-clr-o);
+  font-size: var(--fs-300);
 }
 @media (max-width: 540px) {
-    .numb-wrapper{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        
-        padding-block: 80px;
-        gap: 40px;
-    }
+  .numb-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-block: 80px;
+    gap: 40px;
+  }
 }
